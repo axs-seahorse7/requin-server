@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is a server verify JWT-work flow",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Sonu kr. Das",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2"
+  }
+}
