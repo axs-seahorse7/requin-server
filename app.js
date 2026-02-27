@@ -14,7 +14,7 @@ const app = e();
 connectDB();
 
 app.use(cors({
-    origin: "https://requin-client-gpw4p82o7-axs-seahorse7s-projects.vercel.app/",
+    origin: "https://requin-client.vercel.app/",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
