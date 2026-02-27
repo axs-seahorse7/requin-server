@@ -8,10 +8,10 @@ import User from "./models/user.models.js";
 import connectDB from "./models/db.config.js";
 import isAdminRoute from "./utils/isAdmin.js";
 import isAuthenticated from "./utils/isAuthenticated.js";
-connectDB();
-
 dotenv.config();
+
 const app = e();
+connectDB();
 
 app.use(cors({
     origin: "http://localhost:5173",
